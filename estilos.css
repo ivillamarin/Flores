@@ -1656,4 +1656,18 @@ body {
     animation-play-state: paused !important;
 }
 
+@media screen and (max-width: 600px) {
+    .message {
+        font-size: 24px; /* Más chico para móviles */
+        height: auto;    /* Se ajusta a su contenido */
+        padding: 15px;
+        width: 90%;      /* Ocupa casi todo el ancho disponible */
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        bottom: 20px;
+    }
+}
+
+
 /*# sourceMappingURL=main.css.map */
